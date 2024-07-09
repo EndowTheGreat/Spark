@@ -29,7 +29,7 @@ Then the route setup would look like this:
 ```
 You can choose whether or not to use the ".html" file extension when accessing routes with the server.
 
-Alright, now onto the actual conversion. This can be done using the CLI's convert command
+Alright, now onto the actual conversion. This can be done using the CLI's convert command:
 ```bash
 $ spark convert -i markdown -o web
 ```
