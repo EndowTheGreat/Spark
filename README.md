@@ -11,6 +11,19 @@ Spark is a static-site generator that's intuitive and designed for simplicity. I
 
 ----
 
+## Installation
+You can install Spark to your Go bin location by running:
+```bash
+$ go install gitlab.com/EndowTheGreat/spark/cmd/spark@latest
+```
+Or you can build from source:
+```bash
+$ git clone https://gitlab.com/EndowTheGreat/spark.git
+$ cd spark
+$ make && cd bin
+$ ./spark
+```
+
 ## Converting Your Files
 To convert files, it's recommended to create an input directory to house your Markdown files. However you structure this directory is how your routes will be structured if you choose to serve them. For example, if you have this directory tree:
 ```bash
