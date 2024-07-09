@@ -17,7 +17,7 @@ To convert files, it's recommended to create an input directory to house your Ma
 ├── markdown
     ├── assets
     │   ├── index.css
-    │   └── other.js
+    │   └── login.js
     ├── account
     │   └── login.md
     └── index.md
