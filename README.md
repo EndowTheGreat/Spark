@@ -24,6 +24,11 @@ $ make && cd bin
 $ ./spark
 ```
 
+If you are using an Arch Linux based distribution, you can also install Spark directly from the AUR:
+```bash
+$ yay -S spark-git
+```
+
 ## Converting Your Files
 To convert files, it's recommended to create an input directory to house your Markdown files. However you structure this directory is how your routes will be structured if you choose to serve them. For example, if you have this directory tree:
 ```bash
